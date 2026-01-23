@@ -81,7 +81,7 @@ cl /std:c++20 /O2 eventlog.cpp
 
 ```bash
 # Export and analyze Security log
-wevtutil epl Security Security.evtx
+wevtutil epl Security Features.evtx
 ./eventlog Security.evtx
 
 # Sysmon analysis
